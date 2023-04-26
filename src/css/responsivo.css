@@ -8,6 +8,11 @@
     .informacoes{
         padding-right: 30px;
     }
+    
+    .informacoes .texto{
+        padding: 5px 50px 5px 50px;
+    }
+
     .informacoes button{
         display: inline;
     }
