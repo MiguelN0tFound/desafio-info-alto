@@ -30,5 +30,6 @@
 @media (max-width: 410px){
     .informacoes button{
         display: inline;
+        margin-bottom: 10px;
     }
 }
