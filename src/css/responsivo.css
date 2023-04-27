@@ -9,12 +9,7 @@
     }
     
     .informacoes .texto{
-        max-width: 100%;
         font-size: 15px;
-    }
-
-    .informacoes button{
-        display: inline;
     }
 
     .informacoes .entrar{
@@ -29,4 +24,11 @@
         font-size: 10px;
     }
     
+}
+
+
+@media (max-width: 410px){
+    .informacoes button{
+        display: inline;
+    }
 }
