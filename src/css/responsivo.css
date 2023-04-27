@@ -9,6 +9,7 @@
     }
     
     .informacoes .texto{
+        min-width: 40vh;
         font-size: 15px;
     }
 
@@ -27,7 +28,7 @@
 }
 
 
-@media (max-width: 410px){
+@media (max-width: 470px){
     .informacoes button{
         display: inline;
         margin-top: 10px;
