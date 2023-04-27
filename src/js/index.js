@@ -6,3 +6,13 @@ function myFunction() {
       x.type = "password";
     }
   }
+
+function validarSenha() {
+    var senha = document.getElementById("senha").value;
+    var confirmarcao = document.getElementById("confirmacao").value;
+
+    if (senha != confirmarcao) {
+      alert("As senhas não coincidem. Por favor, tente novamente.");
+      return false;
+    }
+  }

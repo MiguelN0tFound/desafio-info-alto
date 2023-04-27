@@ -25,11 +25,13 @@ main:after{
 
 .conteudo .titulo{
     text-shadow: 0 1px #104d7f;
+    padding: 10px 0 0 0;
 }
 
 .informacoes{
     font-size: 24px;
     margin-left: 50px;
+    padding: 20px 15px 20px 0;
 }
 .informacoes label{
     display: block;
@@ -39,7 +41,7 @@ main:after{
 .informacoes .texto{
     display: flex;
     justify-items: left;
-    margin: 10px 0 20px 0;
+    margin: 10px 0 10px 0;
     min-width: 40%;
     font-size: 20px;
     background-color: #007ba5;
@@ -50,15 +52,25 @@ main:after{
     padding:  5px;
 }
 
+.informacoes .novidades-termos{
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    gap: 10px;
+}
+
 .informacoes .mostrarSenha{
     display: flex;
     flex-direction: row;
     font-size: 15px;
     gap: 10px;
 }
+
 .informacoes .mostrarSenha input{
     margin-bottom: 0;
 }
+
+
 
 .informacoes button{
     margin-top: 20px;
@@ -80,3 +92,26 @@ main:after{
 a{
     color: rgb(133, 133, 247);
 }
+.informacoes .pergunta{
+    display: flex;
+    margin: 20px 0 10px 0;
+}
+
+.informacoes .genero{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 10px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.informacoes .entrar{
+    margin: 10px 0 10px 0;
+}
+
+.cadastro{
+    font-size: 24px;
+    margin-left: 50px;
+}
+

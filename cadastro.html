@@ -16,29 +16,46 @@
     <link rel="shortcut icon" href="src/favicon/favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <main>
-        <div class="conteudo">
-            <h1 class="titulo">Olá visitante, bem-vindo à página de cadastro!<br> Crie sua conta!</h1>
-            <form action="index.html" method="GET">
-                <div class="informacoes">
-                    <label for="nome">Nome de usuário</label>
-                    <input type="nome" name="nome" id="nome" class="texto" required>
+        <main>
+            <div class="conteudo">
+                <h1 class="titulo">Olá visitante, bem-vindo à página de cadastro!<br> Crie sua conta!</h1>
+                <form onsubmit="return validarSenha()" action="index.html"  method="GET">
+                    <div class="informacoes">
+                        <label for="nome">Nome de usuário</label>
+                        <input type="nome" name="nome" id="nome" class="texto" required>
 
-                    <label for="email">E-mail</label>
-                    <input type="email" name="email" id="email" class="texto" required>
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email" class="texto" required>
+                        
+                        <label for="senha">Senha</label>
+                        <input type="password" name="senha" id="senha" class="texto" required>
+                        <label for="confirmacao">Confirme sua senha</label>
+                        <input type="password" name="confirmacao" id="confirmacao" class="texto" required>
 
-                    <label for="senha">Senha</label>
-                    <input type="password" name="senha" id="senha" class="texto" required>
-                    <div class="mostrarSenha">
-                        <label for="check">Mostrar Senha</label>
-                        <input type="checkbox" name="check" onclick="myFunction()">
-                    </div>
-                <button>Criar conta</button>
-            </form>
+                        <p class="pergunta">Qual é o seu gênero?</p>
+                        <div class="genero">
+                            <input type="radio" name="genero" id="masculino" value="masculino" checked>
+                            <label for="masculino">Masculino</label>
+                            <input type="radio" name="genero" id="feminino" value="feminino">
+                            <label for="feminino">Feminino</label>
+                            <input type="radio" name="genero" id="outro" value="outro">
+                            <label for="outro">Outro</label>
+                        </div>
+                        <div class="novidades-termos">
+                            <label for="novidades-termos">Deseja receber novidades?</label>
+                            <input type="checkbox" name="novidades" id="novidades">
+                        </div>
+                        <div class="novidades-termos">
+                            <label for="termos">Concorda com os termos de conduta?</label>
+                            <input type="checkbox" name="termos" id="termos" required>
+                        </div>
+                    <button type="submit">Criar conta</button>
+                    <p>Já tem uma conta? Faça seu login <a href="index.html">aqui!</a></p>
+                </form>
+                
+                </div>
             </div>
-            <p>Já tem uma conta? Faça seu login <a href="index.html">aqui!</a></p>
-        </div>
-    </main>
-    <script src="src/js/index.js"></script>
+        </main>
+        <script src="src/js/index.js"></script>
 </body>
 </html>
