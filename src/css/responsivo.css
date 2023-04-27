@@ -9,7 +9,6 @@
     }
     
     .informacoes .texto{
-        min-width: 40vh;
         font-size: 15px;
     }
 
@@ -35,5 +34,8 @@
     }
     .login-cadastro{
         margin-top: 10px;
+    }
+    .informacoes .texto{
+        min-width: 100%;
     }
 }
