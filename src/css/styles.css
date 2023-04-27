@@ -83,7 +83,6 @@ main:after{
     border-radius: 50px;
     cursor: pointer;
     transition: 0.25s ease-in-out;
-    margin-bottom: 15px;
 }
 
 .informacoes button:hover{
@@ -114,5 +113,9 @@ a{
 .cadastro{
     font-size: 24px;
     margin-left: 50px;
+}
+
+.login-cadastro{
+    margin-top: 20px;
 }
 
