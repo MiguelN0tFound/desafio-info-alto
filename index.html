@@ -20,16 +20,20 @@
         <main>
             <div class="conteudo">
                 <h1 class="titulo">Olá visitante, bem-vindo à página de login!<br> Entre na sua conta!</h1>
+
                 <form action="bemvindo.html" method="GET">
                     <div class="informacoes">
-                        <label for="emailOuNome">Nome de usuário ou E-mail da conta</label>
-                        <input type="text" name="email-ou-nome" id="email-ou-nome" class="texto" required>
+
+                        <label for="email">E-mail da conta</label>
+                        <input type="email" name="email" id="email" class="texto" required>
+
                         <label for="senha">Senha</label>
                         <input type="password" name="senha" id="senha" class="texto" required>
                         <div class="mostrarSenha">
                             <label for="check">Mostrar Senha</label>
                             <input type="checkbox" name="check" onclick="myFunction()">
                         </div>
+                        
                     <button>Entrar</button>
                 </form>
                 <p class="login-cadastro">Não tem uma conta? Cadastre-se <a href="cadastro.html">aqui!</a></p>

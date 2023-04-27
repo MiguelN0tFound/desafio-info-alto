@@ -19,10 +19,13 @@
         <main>
             <div class="conteudo">
                 <h1 class="titulo">Olá visitante, bem-vindo à página de cadastro!<br> Crie sua conta!</h1>
+
                 <form onsubmit="return validarSenha()" action="index.html"  method="GET">
                     <div class="informacoes">
-                        <label for="nome">Nome de usuário</label>
+                        <label for="nome">Nome</label>
                         <input type="nome" name="nome" id="nome" class="texto" required>
+                        <label for="sobrenome">Sobrenome</label>
+                        <input type="sobrenome" name="sobrenome" id="sobrenome" class="texto" required>
 
                         <label for="email">E-mail</label>
                         <input type="email" name="email" id="email" class="texto" required>
@@ -41,6 +44,7 @@
                             <input type="radio" name="genero" id="outro" value="outro">
                             <label for="outro">Outro</label>
                         </div>
+
                         <div class="novidades-termos">
                             <label for="novidades">Deseja receber novidades?</label>
                             <input type="checkbox" name="novidades" id="novidades">
@@ -50,7 +54,6 @@
                             <input type="checkbox" name="termos" id="termos" required>
                         </div>
                     <button type="submit">Criar conta</button>
-                    
                 </form>
                 <p class="login-cadastro">Já tem uma conta? Faça seu login <a href="index.html">aqui!</a></p>
                 </div>

@@ -25,11 +25,11 @@ main:after{
 
 .conteudo .titulo{
     text-shadow: 0 1px #104d7f;
-    padding: 10px 0 0 0;
+    padding: 15px 0 0 0;
 }
 
 .informacoes{
-    font-size: 24px;
+    font-size: 18px;
     margin-left: 50px;
     padding: 20px 15px 20px 0;
 }
@@ -55,7 +55,7 @@ main:after{
 .informacoes .novidades-termos{
     display: flex;
     flex-direction: row;
-    font-size: 18px;
+    font-size: 15px;
     gap: 10px;
 }
 
@@ -104,6 +104,10 @@ a{
     gap: 10px;
     font-size: 18px;
     margin-bottom: 15px;
+}
+
+.informacoes .genero label{
+    font-size: 15px;
 }
 
 .informacoes .entrar{
